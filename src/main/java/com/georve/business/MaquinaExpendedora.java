@@ -24,7 +24,7 @@ public class MaquinaExpendedora {
         //dineroCliente=dinero;
         System.out.println("MachineOption:"+machineOption);
         if(dineroToReturn>0){
-            Stock result = this.stock.stream().filter(e -> e.getProducto().equals(e.getProducto().getMachineOption().equals(machineOption)))
+            Stock result = this.stock.stream().filter(e -> e.getProducto().getMachineOption().equals(machineOption))
                     .findFirst()
                     .orElse(null);
             if(result!=null){
