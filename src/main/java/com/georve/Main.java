@@ -39,7 +39,7 @@ public class Main {
                             case 'a':
 
                                 Integer optionDeposito=0;
-                                Integer saldoAcumm=0;
+                                Integer saldoAcumm=maquina.getDineroCliente();
                                 while(optionDeposito!=5){
                                     System.out.println("Deposite monedas 1,5,10 y 15");
                                     System.out.println("1 . 1 Bs");

@@ -42,6 +42,8 @@ public class MaquinaExpendedora {
                            System.out.println("No vuelto disponible, deposite cantidad exacta");
                        }
 
+                   }else {
+                       System.out.println("No tiene dinero suficiente, deposite cantidad exacta");
                    }
                }else{
                    System.out.println("Producto no disponible, intente otro producto");
